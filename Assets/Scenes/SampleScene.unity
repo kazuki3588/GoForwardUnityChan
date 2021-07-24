@@ -217,6 +217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UnityChan2D
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1355a58c3bd9c40679bea54b926e0179, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -870,7 +874,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1870830828
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1005,7 +1009,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1891725842}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 75c80328eb9d34acb9795719eab70cf3, type: 3}

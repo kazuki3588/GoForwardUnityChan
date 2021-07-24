@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6244833891699475943}
   - component: {fileID: 6244833891699475942}
   - component: {fileID: 6244833891699475738}
-  - component: {fileID: -4976289097419534556}
+  - component: {fileID: 6885424513341961421}
   m_Layer: 0
   m_Name: CubuPrefab
   m_TagString: Cube
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d230a65662d144036a9701e908095f56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!82 &-4976289097419534556
+--- !u!82 &6885424513341961421
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,14 +156,14 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5a8f44a5423a84343aeb9c9c33fe03b9, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0
+  m_PlayOnAwake: 0
+  m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 101
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
